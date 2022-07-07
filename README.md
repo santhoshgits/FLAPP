@@ -1,4 +1,4 @@
-# FLAPP (Fast Local Alignment of Protein Pockets) is a system-compiled python program for doing binding site alignment in large scale.]
+# FLAPP (Fast Local Alignment of Protein Pockets) is a system-compiled python program for doing binding site alignment in large scale.
 **FLAPP require two scripts, one for converting the input pdb into binary and another to establish the actual alignment**
 
 ## Instruction to install FLAPP
@@ -32,7 +32,7 @@ FLAPP next requires a tab separated file list that contains what pairs of site h
 An 200-against-200 sites will generate 40,000 pairwise comparisons as seen in Pairs.txt
 
 ## STEP-1: Converting input binding site in to python objects (byte stream)
-** python CreateVector.py Argunemt-1 Argument-2**
+### python CreateVector.py Argunemt-1 Argument-2
 
 Usage: python CreateVector.py BindingSites SiteVector  
 
@@ -42,7 +42,7 @@ Usage: python CreateVector.py BindingSites SiteVector
 
 
 ## STEP-2: Running the actual FLAPP program
-** python FLAPP.py Argunemt-1 Argument-2 Argument-3 Argument-4**
+### python FLAPP.py Argunemt-1 Argument-2 Argument-3 Argument-4
 
 Usage: python FLAPP.py SiteVector Pairs.txt Outfile.txt 4
   
