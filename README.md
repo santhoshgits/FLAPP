@@ -1,4 +1,5 @@
 # FLAPP (Fast Local Alignment of Protein Pockets) is a system-compiled python program for doing binding site alignment in large scale.
+## FLAPP approximately takes 10 milli second to align two binding sites on a single CPU cores. Our script also has support for multi processing. When N=12, FLAPP takes just 1 milli second to align site pairs.
 **FLAPP require two scripts, one for converting the input pdb into binary format and another to establish the actual alignment**
 
 ## Instruction to install FLAPP
