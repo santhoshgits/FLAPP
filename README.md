@@ -33,9 +33,9 @@ FLAPP next requires a tab separated file that contains what pairs of site have t
 An 200-against-200 sites will generate 40,000 pairwise comparisons as seen in Pairs.txt.
 
 ## STEP-1: Converting input binding site in to python objects (byte stream)
-### python CreateVector.py Argunemt-1 Argument-2
+### python CreateVector.py Argument-1 Argument-2
 
-Usage: python CreateVector.py BindingSites SiteVector  
+Usage: python CreateVectors.py BindingSites SiteVector  
 
 1. **Argument-1 -** Provide the folder name that contain our binding sites as the first argument to this script
 
