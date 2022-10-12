@@ -43,7 +43,7 @@ Usage: python CreateVectors.py BindingSites SiteVector
 
 
 ## STEP-2: Running the actual FLAPP program
-### python FLAPP.py Argunemt-1 Argument-2 Argument-3 Argument-4
+### python FLAPP.py Argument-1 Argument-2 Argument-3 Argument-4
 
 Usage: python FLAPP.py SiteVector Pairs.txt Outfile.txt 4
   
