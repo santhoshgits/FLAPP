@@ -49,7 +49,7 @@ Usage: python FLAPP.py SiteVector Pairs.txt Outfile.txt 4
   
 1. **Argument-1 -** Provide the name of the output folder from step-1
 
-2. **Argument-2 -** Specify the Pairs.txt file
+2. **Argument-2 -** Specify the Pairs.txt file. (Tab Delimited)
 
 3. **Argument-3 -** Specify the file name to store the result
 
